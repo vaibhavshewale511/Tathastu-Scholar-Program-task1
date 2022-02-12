@@ -1,0 +1,154 @@
+.header {
+    background-color: black;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    font-family: cursive;
+    margin-left: 90px;
+}
+
+.sub-heading {
+    color: darkgray;
+    font-family: cursive;
+    margin-left: 90px;
+}
+
+.item {
+    display: inline-block;
+    height: 150px;
+    width: 350px;
+    box-shadow: 3px 6px 9px 2px black;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.left-portion {
+    display: inline-block;
+    width: 45%;
+}
+
+.right-portion {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.item-heading {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: blueviolet;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.item-desc {
+    color: darkblue;
+    margin-left: 10px;
+}
+
+.logo {
+    background-color: antiquewhite;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 47%;
+}
+
+.header-logo {
+    background-color: antiquewhite;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    font-size: 37px;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.user-accounts {
+    float: right;
+    margin-top: 8px;
+    color: white;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.login {
+    display: inline-block;
+}
+
+.signup {
+    display: inline-block;
+    border: solid 1px white;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.absolute-block {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.main-heading {
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.search-block {
+    text-align: center;
+}
+
+.dd {
+    width: 150px;
+    height: 30px;
+}
+
+.search {
+    width: 350px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        margin-left: 35%;
+    }
+    .main-heading {
+        font-size: 30px;
+        line-height: 1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .absolute-block {
+        top: 25%;
+        left: 5%;
+    }
+    .search-block {
+        text-align: unset;
+        margin-left: 60px;
+    }
+    .dd {
+        width: 300px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .search {
+        width: 300px;
+        height: 30px;
+    }
+}
